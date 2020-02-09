@@ -10,6 +10,12 @@ class indcontroller extends Controller
 {
 
  
+    public function test()
+{
+return 	view('pages.ABOUT');
+}
+
+ 
     public function ABOUT()
 {
 return 	view('pages.ABOUT');
